@@ -850,7 +850,7 @@ function renderCaseStudies(filterCountry) {
           </span>
         </div>
         <h3 class="text-lg font-bold text-slate-900 mb-1">${c.occupation}</h3>
-        <p class="text-xs font-semibold text-red-600 mb-3">${c.points}</p>
+        <p class="text-xs font-semibold text-black600 mb-3">${c.points}</p>
         <p class="text-sm text-slate-600 leading-relaxed mb-4">${c.summary}</p>
       </div>
       <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
@@ -884,13 +884,13 @@ function renderBlogs(category) {
     <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card flex flex-col justify-between">
       <div>
         <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-          <span class="px-2.5 py-1 rounded-md bg-red-50 text-red-700 font-bold">${b.category}</span>
+          <span class="px-2.5 py-1 rounded-md bg-red-50 text-black700 font-bold">${b.category}</span>
           <span>${b.date} • ${b.readTime}</span>
         </div>
         <h3 class="text-base font-bold text-slate-900 mb-2 leading-snug">${b.title}</h3>
         <p class="text-sm text-slate-600 leading-relaxed mb-4">${b.excerpt}</p>
       </div>
-      <button type="button" onclick="openBlogModal('${b.id}')" class="inline-flex items-center gap-1.5 text-xs font-bold text-red-600 hover:text-red-700">
+      <button type="button" onclick="openBlogModal('${b.id}')" class="inline-flex items-center gap-1.5 text-xs font-bold text-black600 hover:text-black700">
         Read Full Guide <span>→</span>
       </button>
     </article>
@@ -914,13 +914,13 @@ function renderHomeBlogCarousel() {
     <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card flex flex-col justify-between">
       <div>
         <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-          <span class="px-2.5 py-1 rounded-md bg-red-50 text-red-700 font-bold">${b.category}</span>
+          <span class="px-2.5 py-1 rounded-md bg-red-50 text-black700 font-bold">${b.category}</span>
           <span>${b.date} • ${b.readTime}</span>
         </div>
         <h3 class="text-base font-bold text-slate-900 mb-2 leading-snug">${b.title}</h3>
         <p class="text-sm text-slate-600 leading-relaxed mb-4">${b.excerpt}</p>
       </div>
-      <button type="button" onclick="openBlogModal('${b.id}')" class="inline-flex items-center gap-1.5 text-xs font-bold text-red-600 hover:text-red-700">
+      <button type="button" onclick="openBlogModal('${b.id}')" class="inline-flex items-center gap-1.5 text-xs font-bold text-black600 hover:text-black700">
         Read Full Guide <span>→</span>
       </button>
     </article>
@@ -1090,7 +1090,7 @@ function renderReelsCarousel() {
       </div>
       <div class="flex items-center justify-between text-[11px] text-slate-400 pt-2 border-t border-white/10">
         <span>${r.views}</span>
-        <span class="text-red-400 font-bold group-hover:underline">Watch Reel →</span>
+        <span class="text-black400 font-bold group-hover:underline">Watch Reel →</span>
       </div>
     </div>
   `).join("");
@@ -1160,7 +1160,7 @@ function renderFaqs() {
     <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
       <button type="button" onclick="toggleFaqItem('${prefix}-${idx}')" class="w-full px-5 py-4 text-left flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors">
         <span class="font-bold text-sm text-slate-900">${idx + 1}. ${item.q}</span>
-        <span id="faq-icon-${prefix}-${idx}" class="text-red-600 font-bold text-lg">+</span>
+        <span id="faq-icon-${prefix}-${idx}" class="text-black600 font-bold text-lg">+</span>
       </button>
       <div id="faq-body-${prefix}-${idx}" class="${idx === 0 ? '' : 'hidden'} px-5 pb-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
         ${item.a}
@@ -1281,11 +1281,11 @@ function sendChatMessage(event) {
     botBubble.className = "bg-slate-100 text-slate-800 text-xs rounded-xl rounded-bl-none px-3.5 py-2.5 self-start max-w-[88%]";
     const lower = text.toLowerCase();
     if (lower.includes("canada") || lower.includes("crs")) {
-      botBubble.innerHTML = "For <strong>Canada PR</strong>, you need 67/100 FSW points. Would you like to check our <button type='button' onclick='openCalculator(\"canada\")' class='underline font-bold text-red-600'>Canada Points Calculator</button> or speak with our Nehru Place case manager at +91-6262191313?";
+      botBubble.innerHTML = "For <strong>Canada PR</strong>, you need 67/100 FSW points. Would you like to check our <button type='button' onclick='openCalculator(\"canada\")' class='underline font-bold text-black600'>Canada Points Calculator</button> or speak with our Nehru Place case manager at +91-6262191313?";
     } else if (lower.includes("australia") || lower.includes("189") || lower.includes("190")) {
-      botBubble.innerHTML = "For <strong>Australia PR (Subclass 189/190/491)</strong>, the minimum threshold is 65 points. Try our <button type='button' onclick='openCalculator(\"australia\")' class='underline font-bold text-red-600'>Australia 65-Point Calculator</button>!";
+      botBubble.innerHTML = "For <strong>Australia PR (Subclass 189/190/491)</strong>, the minimum threshold is 65 points. Try our <button type='button' onclick='openCalculator(\"australia\")' class='underline font-bold text-black600'>Australia 65-Point Calculator</button>!";
     } else if (lower.includes("germany") || lower.includes("opportunity")) {
-      botBubble.innerHTML = "The <strong>Germany Opportunity Card 2026</strong> lets you move to Germany for 1 year without a job offer if you score 6+ points! Check your score on our <button type='button' onclick='openCalculator(\"germany\")' class='underline font-bold text-red-600'>Chancenkarte Calculator</button>.";
+      botBubble.innerHTML = "The <strong>Germany Opportunity Card 2026</strong> lets you move to Germany for 1 year without a job offer if you score 6+ points! Check your score on our <button type='button' onclick='openCalculator(\"germany\")' class='underline font-bold text-black600'>Chancenkarte Calculator</button>.";
     } else {
       botBubble.innerHTML = "Thank you for reaching out to <strong>Viraj Immigration Pvt Ltd</strong>! Our Senior Case Manager Nikita or Founder Gurpreet Singh's desk can evaluate your profile for free. Call/WhatsApp <strong>+91-6262191313</strong> or fill out the Free Assessment Form on this page.";
     }
