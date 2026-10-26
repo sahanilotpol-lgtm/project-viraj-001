@@ -116,14 +116,14 @@ body {
 }
 /* Replace blue accents across Tailwind utility classes with the brand red. */
 [class*="bg-red-"], [class*="bg-red-"], [class*="bg-red-"], [class*="bg-red-"] { background-color: #c8102e !important; }
-[class*="text-red-"], [class*="text-red-"], [class*="text-red-"], [class*="text-red-"] { color: #c8102e !important; }
+[class*="text-black"] { color: #000 !important; }
 [class*="border-red-"], [class*="border-red-"], [class*="border-red-"], [class*="border-red-"] { border-color: #c8102e !important; }
 [class*="ring-red-"], [class*="ring-red-"], [class*="ring-red-"], [class*="ring-red-"] { --tw-ring-color: rgb(200 16 46 / var(--tw-ring-opacity, 1)) !important; }
 [class*="from-red-"], [class*="from-red-"], [class*="from-red-"], [class*="from-red-"] { --tw-gradient-from: #a90f1b var(--tw-gradient-from-position) !important; --tw-gradient-to: rgb(169 15 27 / 0) var(--tw-gradient-to-position) !important; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important; }
 [class*="via-red-"], [class*="via-red-"], [class*="via-red-"], [class*="via-red-"] { --tw-gradient-to: rgb(200 16 46 / 0) var(--tw-gradient-to-position) !important; --tw-gradient-stops: var(--tw-gradient-from), #c8102e var(--tw-gradient-via-position), var(--tw-gradient-to) !important; }
 [class*="to-red-"], [class*="to-red-"], [class*="to-red-"], [class*="to-red-"] { --tw-gradient-to: #e33442 var(--tw-gradient-to-position) !important; }
 [class~="bg-[#a90f1b]"], [class~="bg-[#cf1827]"] { background-color: #a90f1b !important; }
-[class~="text-[#a90f1b]"], [class~="text-[#cf1827]"] { color: #a90f1b !important; }
+[class~="text-black"], [class~="text-black"] { color: #000 !important; }
 [class~="border-[#a90f1b]"], [class~="border-[#cf1827]"] { border-color: #a90f1b !important; }
 /* Keep the page airy and white, with crisp red interactive accents. */
 body { background-color: #fff !important; }
@@ -174,12 +174,12 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
         </a>
       </div>
       <div class="flex flex-wrap items-center justify-end gap-x-6 gap-y-2 text-sm">
-        <a href="mailto:info@virajimmigration.com" class="inline-flex items-center gap-2 hover:text-red-300 transition-colors">
-          <svg viewBox="0 0 24 24" aria-hidden="true" class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+        <a href="mailto:info@virajimmigration.com" class="inline-flex items-center gap-2 hover:text-black300 transition-colors">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="w-4 h-4 text-black500" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
           <span class="font-medium">info@virajimmigration.com</span>
         </a>
-        <a href="tel:+916262191313" class="inline-flex items-center gap-2 hover:text-red-300 transition-colors">
-          <svg viewBox="0 0 24 24" aria-hidden="true" class="w-4 h-4 text-red-500" fill="currentColor"><path d="M6.6 2.8 9.4 2c.7-.2 1.4.2 1.6.9l1.1 3.4c.2.6 0 1.2-.5 1.6l-1.8 1.4a15 15 0 0 0 5.3 5.3l1.4-1.8c.4-.5 1-.7 1.6-.5l3.4 1.1c.7.2 1.1.9.9 1.6l-.8 2.8c-.2.7-.8 1.2-1.6 1.2C10.7 19 5 13.3 5.4 4.4c0-.8.5-1.4 1.2-1.6Z"/></svg>
+        <a href="tel:+916262191313" class="inline-flex items-center gap-2 hover:text-black300 transition-colors">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="w-4 h-4 text-black500" fill="currentColor"><path d="M6.6 2.8 9.4 2c.7-.2 1.4.2 1.6.9l1.1 3.4c.2.6 0 1.2-.5 1.6l-1.8 1.4a15 15 0 0 0 5.3 5.3l1.4-1.8c.4-.5 1-.7 1.6-.5l3.4 1.1c.7.2 1.1.9.9 1.6l-.8 2.8c-.2.7-.8 1.2-1.6 1.2C10.7 19 5 13.3 5.4 4.4c0-.8.5-1.4 1.2-1.6Z"/></svg>
           <span class="font-semibold">+91 62 62 19 13 13</span>
         </a>
       </div>
@@ -197,7 +197,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
         </div>
         <div>
           <div class="flex items-center gap-1.5 flex-wrap">
-            <span class="text-lg sm:text-xl font-black tracking-wider text-[#a90f1b]">VIRAJ <span class="text-red-600">IMMIGRATION</span></span>
+            <span class="text-lg sm:text-xl font-black tracking-wider text-black">VIRAJ <span class="text-black600">IMMIGRATION</span></span>
             <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-[#7f1111] text-white tracking-widest">PVT LTD</span>
           </div>
         </div>
@@ -220,7 +220,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
             <div>
               <div class="flex items-center gap-2 pb-2.5 mb-3 border-b border-slate-100">
                 <span class="text-lg">🇨🇦</span>
-                <span class="font-extrabold text-[#a90f1b] text-sm uppercase tracking-wider">Immigrate Canada</span>
+                <span class="font-extrabold text-black text-sm uppercase tracking-wider">Immigrate Canada</span>
               </div>
               <ul class="space-y-2 text-xs font-medium text-slate-600">
                 <li><button type="button" onclick="openPathwayDetail('canada-express-entry')" class="hover:text-[#0b1f3a] text-left w-full">→ Express Entry Program 2026</button></li>
@@ -237,7 +237,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
             <div>
               <div class="flex items-center gap-2 pb-2.5 mb-3 border-b border-slate-100">
                 <span class="text-lg">🇦🇺</span>
-                <span class="font-extrabold text-[#a90f1b] text-sm uppercase tracking-wider">Immigrate Australia</span>
+                <span class="font-extrabold text-black text-sm uppercase tracking-wider">Immigrate Australia</span>
               </div>
               <ul class="space-y-2 text-xs font-medium text-slate-600">
                 <li><button type="button" onclick="openPathwayDetail('australia-pr')" class="hover:text-[#0b1f3a] text-left w-full">→ Apply Australia PR Visa from India</button></li>
@@ -254,7 +254,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
             <div>
               <div class="flex items-center gap-2 pb-2.5 mb-3 border-b border-slate-100">
                 <span class="text-lg">🇪🇺</span>
-                <span class="font-extrabold text-[#a90f1b] text-sm uppercase tracking-wider">Immigrate Europe</span>
+                <span class="font-extrabold text-black text-sm uppercase tracking-wider">Immigrate Europe</span>
               </div>
               <ul class="space-y-2 text-xs font-medium text-slate-600">
                 <li><button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="hover:text-[#0b1f3a] text-left w-full">→ Germany Opportunity Card 2026</button></li>
@@ -282,7 +282,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
 
       <!-- Action Buttons -->
       <div class="flex items-center gap-2.5">
-        <a href="tel:+916262191313" class="hidden md:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-slate-200 text-xs font-bold text-[#a90f1b] hover:bg-slate-100 transition-colors">
+        <a href="tel:+916262191313" class="hidden md:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-slate-200 text-xs font-bold text-black hover:bg-slate-100 transition-colors">
           <span>📞</span> +91-6262191313
         </a>
         <button type="button" onclick="openPayModal()" class="px-4 py-2.5 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-bold shadow-sm transition-colors">
@@ -317,13 +317,13 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <main id="view-home" class="flex-1">
 
     <!-- HERO SECTION WITH INLINE 60-SECOND ELIGIBILITY ASSESSMENT FORM -->
-    <section class="relative bg-white text-[#a90f1b] overflow-hidden">
+    <section class="relative bg-white text-black overflow-hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 lg:py-16 grid lg:grid-cols-12 gap-10 items-center">
         
         <!-- Left Hero Content (7 cols) -->
         <div class="lg:col-span-7 space-y-6">
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight">
-            Turn Your Global Dream Into Reality With <span class="text-[#a90f1b]">Viraj Immigration Pvt Ltd</span>
+            Turn Your Global Dream Into Reality With <span class="text-black">Viraj Immigration Pvt Ltd</span>
           </h1>
 
           <p class="text-black text-sm sm:text-base leading-relaxed max-w-2xl">
@@ -411,7 +411,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
                     <p class="text-xs text-slate-200 leading-relaxed">12-month German job-seeker residence permit with 20 hrs/week part-time work rights, ANABIN degree verification &amp; Blocked Account setup.</p>
                   </div>
                   <div class="flex items-center gap-3">
-                    <button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="px-4 py-2 rounded-lg bg-white text-[#a90f1b] hover:bg-slate-100 font-extrabold text-xs">Explore Germany Chancenkarte →</button>
+                    <button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="px-4 py-2 rounded-lg bg-white text-black hover:bg-slate-100 font-extrabold text-xs">Explore Germany Chancenkarte →</button>
                   </div>
                 </div>
               </div>
@@ -439,7 +439,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
             <button type="button" onclick="openCalculator('canada')" class="px-6 py-3.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-sm shadow-lg transition-all">
               Check PR Eligibility in 60 Seconds →
             </button>
-            <button type="button" onclick="switchView('cases')" class="px-5 py-3.5 rounded-xl bg-[#fff5f5] hover:bg-white text-[#a90f1b] font-semibold text-sm border border-[#a90f1b]/20 transition-all">
+            <button type="button" onclick="switchView('cases')" class="px-5 py-3.5 rounded-xl bg-[#fff5f5] hover:bg-white text-black font-semibold text-sm border border-[#a90f1b]/20 transition-all">
               View Verified Visa Grants
             </button>
           </div>
@@ -534,8 +534,8 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <!-- COUNTRY TO IMMIGRATE SECTION (CANADA, AUSTRALIA, EUROPE) -->
     <section id="countries-section" class="max-w-7xl mx-auto px-4 sm:px-6 py-16">
       <div class="text-center max-w-3xl mx-auto mb-12">
-        <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Global Destinations</span>
-        <h2 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Country To Immigrate</h2>
+        <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Global Destinations</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-black mt-1">Country To Immigrate</h2>
         <p class="text-sm text-slate-600 mt-2">Choose your destination below to explore visa subclasses, point calculators, and step-by-step eligibility requirements.</p>
       </div>
 
@@ -551,14 +551,14 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
               </div>
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-extrabold text-[#a90f1b] mb-3">Immigrate to Canada</h3>
+              <h3 class="text-xl font-extrabold text-black mb-3">Immigrate to Canada</h3>
               <ul class="space-y-2 text-sm text-slate-700 mb-6">
-                <li><button type="button" onclick="openPathwayDetail('canada-express-entry')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Canada Express Entry Program</button></li>
-                <li><button type="button" onclick="openCalculator('canada')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> 67 Point &amp; CRS Score Calculator</button></li>
-                <li><button type="button" onclick="openPathwayDetail('canada-pnp')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Provincial Nominee Program (PNP)</button></li>
-                <li><button type="button" onclick="openPathwayDetail('canada-business')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Business Investor &amp; Start-Up Visa</button></li>
-                <li><button type="button" onclick="openPathwayDetail('canada-spouse')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Family &amp; Spouse Sponsorship</button></li>
-                <li><button type="button" onclick="openPathwayDetail('canada-super-visa')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Canada Super Visa &amp; Visitor Visa</button></li>
+                <li><button type="button" onclick="openPathwayDetail('canada-express-entry')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Canada Express Entry Program</button></li>
+                <li><button type="button" onclick="openCalculator('canada')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> 67 Point &amp; CRS Score Calculator</button></li>
+                <li><button type="button" onclick="openPathwayDetail('canada-pnp')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Provincial Nominee Program (PNP)</button></li>
+                <li><button type="button" onclick="openPathwayDetail('canada-business')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Business Investor &amp; Start-Up Visa</button></li>
+                <li><button type="button" onclick="openPathwayDetail('canada-spouse')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Family &amp; Spouse Sponsorship</button></li>
+                <li><button type="button" onclick="openPathwayDetail('canada-super-visa')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Canada Super Visa &amp; Visitor Visa</button></li>
               </ul>
             </div>
           </div>
@@ -578,14 +578,14 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
               </div>
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-extrabold text-[#a90f1b] mb-3">Immigrate to Australia</h3>
+              <h3 class="text-xl font-extrabold text-black mb-3">Immigrate to Australia</h3>
               <ul class="space-y-2 text-sm text-slate-700 mb-6">
-                <li><button type="button" onclick="openPathwayDetail('australia-pr')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Australia Skilled Occupation List</button></li>
-                <li><button type="button" onclick="openPathwayDetail('australia-189')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Skilled Independent Subclass 189</button></li>
-                <li><button type="button" onclick="openPathwayDetail('australia-190')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Australia Visa Subclass 190</button></li>
-                <li><button type="button" onclick="openPathwayDetail('australia-491')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Australia Subclass 491 Regional</button></li>
-                <li><button type="button" onclick="openPathwayDetail('australia-186')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Employer Nomination Subclass 186</button></li>
-                <li><button type="button" onclick="openCalculator('australia')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Australia 65 Points Calculator</button></li>
+                <li><button type="button" onclick="openPathwayDetail('australia-pr')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Australia Skilled Occupation List</button></li>
+                <li><button type="button" onclick="openPathwayDetail('australia-189')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Skilled Independent Subclass 189</button></li>
+                <li><button type="button" onclick="openPathwayDetail('australia-190')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Australia Visa Subclass 190</button></li>
+                <li><button type="button" onclick="openPathwayDetail('australia-491')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Australia Subclass 491 Regional</button></li>
+                <li><button type="button" onclick="openPathwayDetail('australia-186')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Employer Nomination Subclass 186</button></li>
+                <li><button type="button" onclick="openCalculator('australia')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Australia 65 Points Calculator</button></li>
               </ul>
             </div>
           </div>
@@ -605,14 +605,14 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
               </div>
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-extrabold text-[#a90f1b] mb-3">Immigrate to Europe</h3>
+              <h3 class="text-xl font-extrabold text-black mb-3">Immigrate to Europe</h3>
               <ul class="space-y-2 text-sm text-slate-700 mb-6">
-                <li><button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Germany Opportunity Card 2026</button></li>
-                <li><button type="button" onclick="openCalculator('germany')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Chancenkarte 6-Point Calculator</button></li>
-                <li><button type="button" onclick="openPathwayDetail('germany-tourist')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> Germany &amp; Schengen Visitor Visa</button></li>
-                <li><button type="button" onclick="openPathwayDetail('germany-tourist')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> European Work Permits (Spain/EU)</button></li>
-                <li><button type="button" onclick="openPathwayDetail('germany-tourist')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> European Student &amp; Business Visa</button></li>
-                <li><button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="hover:text-red-600 flex items-center gap-2 w-full text-left"><span class="text-red-600 font-bold">›</span> EU Blue Card Skilled Migration</button></li>
+                <li><button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Germany Opportunity Card 2026</button></li>
+                <li><button type="button" onclick="openCalculator('germany')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Chancenkarte 6-Point Calculator</button></li>
+                <li><button type="button" onclick="openPathwayDetail('germany-tourist')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> Germany &amp; Schengen Visitor Visa</button></li>
+                <li><button type="button" onclick="openPathwayDetail('germany-tourist')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> European Work Permits (Spain/EU)</button></li>
+                <li><button type="button" onclick="openPathwayDetail('germany-tourist')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> European Student &amp; Business Visa</button></li>
+                <li><button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="hover:text-black600 flex items-center gap-2 w-full text-left"><span class="text-black600 font-bold">›</span> EU Blue Card Skilled Migration</button></li>
               </ul>
             </div>
           </div>
@@ -629,8 +629,8 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <section class="bg-white border-y border-slate-200 py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-12 gap-12 items-center">
         <div class="lg:col-span-7 space-y-4">
-          <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Trusted Expertise Since 2010</span>
-          <h2 class="text-2xl sm:text-3xl font-black text-[#a90f1b]">Best Immigration Consultant in Nehru Place, Delhi</h2>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Trusted Expertise Since 2010</span>
+          <h2 class="text-2xl sm:text-3xl font-black text-black">Best Immigration Consultant in Nehru Place, Delhi</h2>
           <p class="text-sm text-slate-600 leading-relaxed">
             <strong>Viraj Immigration Pvt Ltd</strong> is recognized among the premier immigration consultants in Nehru Place, New Delhi, known across India for reliable, ethical, and transparent visa services. We provide end-to-end guidance for Permanent Residency (PR) visas, work permits, study visas, and family sponsorship for Canada, Australia, Germany, the UK, the USA, and New Zealand.
           </p>
@@ -643,7 +643,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
             <div>
               <div class="flex justify-between text-xs font-bold text-slate-800 mb-1">
                 <span>PR Visa Approval &amp; Documentation Accuracy Rate</span>
-                <span class="text-red-600">99.9%</span>
+                <span class="text-black600">99.9%</span>
               </div>
               <div class="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden">
                 <div class="h-full bg-red-600 rounded-full" style="width: 99.9%"></div>
@@ -661,7 +661,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
             <div>
               <div class="flex justify-between text-xs font-bold text-slate-800 mb-1">
                 <span>Process &amp; Fee Transparency</span>
-                <span class="text-[#a90f1b]">100%</span>
+                <span class="text-black">100%</span>
               </div>
               <div class="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden">
                 <div class="h-full bg-[#a90f1b] rounded-full" style="width: 100%"></div>
@@ -678,10 +678,10 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
           </div>
           <div class="bg-red-600 text-white rounded-2xl p-6 shadow-md">
             <div class="text-3xl font-black text-white mb-1">12.5K+</div>
-            <div class="text-xs font-bold uppercase tracking-wide text-red-100">Successful Applications Filed</div>
+            <div class="text-xs font-bold uppercase tracking-wide text-black100">Successful Applications Filed</div>
           </div>
           <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6">
-            <div class="text-3xl font-black text-[#a90f1b] mb-1">45+</div>
+            <div class="text-3xl font-black text-black mb-1">45+</div>
             <div class="text-xs font-bold uppercase tracking-wide text-slate-500">Dedicated Case Managers &amp; Legal Staff</div>
           </div>
           <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6">
@@ -704,52 +704,52 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <!-- TYPES OF VISAS & PR SERVICES WE HELP OUR CLIENTS WITH (01 - 06) -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 py-16">
       <div class="text-center max-w-3xl mx-auto mb-12">
-        <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Comprehensive Solutions</span>
-        <h2 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Types of Visas &amp; PR Services We Provide</h2>
+        <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Comprehensive Solutions</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-black mt-1">Types of Visas &amp; PR Services We Provide</h2>
         <p class="text-sm text-slate-600 mt-2">One-stop immigration support tailored to your academic, professional, and family settlement goals.</p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card">
-          <div class="text-xs font-black text-red-600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">01. PERMANENT RESIDENCY</div>
-          <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Permanent Residency (PR) Visas</h3>
+          <div class="text-xs font-black text-black600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">01. PERMANENT RESIDENCY</div>
+          <h3 class="text-lg font-bold text-black mb-2">Permanent Residency (PR) Visas</h3>
           <p class="text-sm text-slate-600 leading-relaxed mb-4">Complete end-to-end support for Canada PR (Express Entry), Australia PR (Subclass 189/190/491), and New Zealand PR—from profile evaluation to visa grant.</p>
-          <button type="button" onclick="openPathwayDetail('canada-express-entry')" class="text-xs font-bold text-red-600 hover:underline">Explore PR Pathways →</button>
+          <button type="button" onclick="openPathwayDetail('canada-express-entry')" class="text-xs font-bold text-black600 hover:underline">Explore PR Pathways →</button>
         </div>
 
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card">
-          <div class="text-xs font-black text-red-600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">02. STUDY ABROAD</div>
-          <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Student Study Visas</h3>
+          <div class="text-xs font-black text-black600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">02. STUDY ABROAD</div>
+          <h3 class="text-lg font-bold text-black mb-2">Student Study Visas</h3>
           <p class="text-sm text-slate-600 leading-relaxed mb-4">Course &amp; university selection, SOP writing, admission letters, GIC/financial documentation, and high-approval student visa filing for Canada, Australia, UK, and Germany.</p>
-          <button type="button" onclick="switchView('contact')" class="text-xs font-bold text-red-600 hover:underline">Book Study Counseling →</button>
+          <button type="button" onclick="switchView('contact')" class="text-xs font-bold text-black600 hover:underline">Book Study Counseling →</button>
         </div>
 
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card">
-          <div class="text-xs font-black text-red-600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">03. TOURIST &amp; VISITOR</div>
-          <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Visitor, Tourist &amp; Super Visas</h3>
+          <div class="text-xs font-black text-black600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">03. TOURIST &amp; VISITOR</div>
+          <h3 class="text-lg font-bold text-black mb-2">Visitor, Tourist &amp; Super Visas</h3>
           <p class="text-sm text-slate-600 leading-relaxed mb-4">Hassle-free tourist, business visitor, and Canada Super Visa applications for Canada, Australia (Subclass 600), Schengen Europe, UK, and USA.</p>
-          <button type="button" onclick="openPathwayDetail('canada-visitor')" class="text-xs font-bold text-red-600 hover:underline">View Visitor Visa Checklist →</button>
+          <button type="button" onclick="openPathwayDetail('canada-visitor')" class="text-xs font-bold text-black600 hover:underline">View Visitor Visa Checklist →</button>
         </div>
 
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card">
-          <div class="text-xs font-black text-red-600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">04. FAMILY REUNIFICATION</div>
-          <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Family &amp; Spouse Sponsorship</h3>
+          <div class="text-xs font-black text-black600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">04. FAMILY REUNIFICATION</div>
+          <h3 class="text-lg font-bold text-black mb-2">Family &amp; Spouse Sponsorship</h3>
           <p class="text-sm text-slate-600 leading-relaxed mb-4">Reunite with your partner and children through Canada Outland/Inland Spousal Sponsorship, Spousal Open Work Permits, and Australia Partner Visas (309/100).</p>
-          <button type="button" onclick="openPathwayDetail('canada-spouse')" class="text-xs font-bold text-red-600 hover:underline">Explore Spouse Visas →</button>
+          <button type="button" onclick="openPathwayDetail('canada-spouse')" class="text-xs font-bold text-black600 hover:underline">Explore Spouse Visas →</button>
         </div>
 
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card">
-          <div class="text-xs font-black text-red-600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">05. STATE &amp; PROVINCIAL</div>
-          <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Provincial Nominee Programs (PNP)</h3>
+          <div class="text-xs font-black text-black600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">05. STATE &amp; PROVINCIAL</div>
+          <h3 class="text-lg font-bold text-black mb-2">Provincial Nominee Programs (PNP)</h3>
           <p class="text-sm text-slate-600 leading-relaxed mb-4">Worried about low CRS scores? We specialize in Canada PNP (+600 CRS points) and Australia State Nomination (Subclass 190 &amp; 491) to maximize invitation chances.</p>
-          <button type="button" onclick="openPathwayDetail('canada-pnp')" class="text-xs font-bold text-red-600 hover:underline">Check PNP Eligibility →</button>
+          <button type="button" onclick="openPathwayDetail('canada-pnp')" class="text-xs font-bold text-black600 hover:underline">Check PNP Eligibility →</button>
         </div>
 
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card">
-          <div class="text-xs font-black text-red-600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">06. WORK &amp; JOB SEEKER</div>
-          <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Job Seeker &amp; Work Visas</h3>
+          <div class="text-xs font-black text-black600 bg-red-50 inline-block px-3 py-1 rounded-lg mb-3">06. WORK &amp; JOB SEEKER</div>
+          <h3 class="text-lg font-bold text-black mb-2">Job Seeker &amp; Work Visas</h3>
           <p class="text-sm text-slate-600 leading-relaxed mb-4">Move abroad with the Germany Opportunity Card (Chancenkarte), Australia Employer Nomination (Subclass 186), or Canadian LMIA &amp; ICT Work Permits.</p>
-          <button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="text-xs font-bold text-red-600 hover:underline">Explore Germany Opportunity Card →</button>
+          <button type="button" onclick="openPathwayDetail('germany-opportunity-card')" class="text-xs font-bold text-black600 hover:underline">Explore Germany Opportunity Card →</button>
         </div>
       </div>
     </section>
@@ -796,38 +796,38 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <!-- WHY CHOOSE VIRAJ IMMIGRATION PVT LTD (6 PILLARS) -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 py-16">
       <div class="text-center max-w-3xl mx-auto mb-12">
-        <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">The Viraj Immigration Advantage</span>
-        <h2 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Why Choose Viraj Immigration Pvt Ltd?</h2>
+        <span class="text-xs font-extrabold uppercase tracking-widest text-black600">The Viraj Immigration Advantage</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-black mt-1">Why Choose Viraj Immigration Pvt Ltd?</h2>
       </div>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div class="text-2xl mb-2">🏆</div>
-          <h3 class="font-bold text-base text-[#a90f1b] mb-1">1. Proven +90% Success Rate</h3>
+          <h3 class="font-bold text-base text-black mb-1">1. Proven +90% Success Rate</h3>
           <p class="text-xs text-slate-600 leading-relaxed">Thousands of successful visa approvals across Canada PR, Australia Subclass 189/190/491, and European permits.</p>
         </div>
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div class="text-2xl mb-2">⚖️</div>
-          <h3 class="font-bold text-base text-[#a90f1b] mb-1">2. Certified &amp; Experienced Experts</h3>
+          <h3 class="font-bold text-base text-black mb-1">2. Certified &amp; Experienced Experts</h3>
           <p class="text-xs text-slate-600 leading-relaxed">Strategic guidance from trained immigration specialists with deep knowledge of current IRCC, DHA, and German embassy rules.</p>
         </div>
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div class="text-2xl mb-2">👩‍💼</div>
-          <h3 class="font-bold text-base text-[#a90f1b] mb-1">3. Dedicated Case Manager</h3>
+          <h3 class="font-bold text-base text-black mb-1">3. Dedicated Case Manager</h3>
           <p class="text-xs text-slate-600 leading-relaxed">Single point of contact for regular updates, document checklists, and prompt query resolution throughout your journey.</p>
         </div>
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div class="text-2xl mb-2">🔍</div>
-          <h3 class="font-bold text-base text-[#a90f1b] mb-1">4. Transparent &amp; Ethical Process</h3>
+          <h3 class="font-bold text-base text-black mb-1">4. Transparent &amp; Ethical Process</h3>
           <p class="text-xs text-slate-600 leading-relaxed">No false promises. Clear written retainer agreements and honest pre-registration eligibility assessments.</p>
         </div>
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div class="text-2xl mb-2">🤝</div>
-          <h3 class="font-bold text-base text-[#a90f1b] mb-1">5. High Client Referrals (4.8★)</h3>
+          <h3 class="font-bold text-base text-black mb-1">5. High Client Referrals (4.8★)</h3>
           <p class="text-xs text-slate-600 leading-relaxed">Strong word-of-mouth trust across Delhi NCR, Punjab, Haryana, and Pan-India applicants.</p>
         </div>
         <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div class="text-2xl mb-2">🌐</div>
-          <h3 class="font-bold text-base text-[#a90f1b] mb-1">6. Pan-India &amp; Global Support</h3>
+          <h3 class="font-bold text-base text-black mb-1">6. Pan-India &amp; Global Support</h3>
           <p class="text-xs text-slate-600 leading-relaxed">Seamless digital onboarding for clients across India alongside walk-in consultations at Devika Tower, Nehru Place.</p>
         </div>
       </div>
@@ -838,14 +838,14 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
           <div>
-            <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Latest Updates</span>
-            <h2 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">2026 Immigration Guides &amp; Draw Updates Carousel</h2>
+            <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Latest Updates</span>
+            <h2 class="text-2xl sm:text-3xl font-black text-black mt-1">2026 Immigration Guides &amp; Draw Updates Carousel</h2>
           </div>
           <div class="flex items-center gap-2">
             <button type="button" onclick="shiftBlogCarousel(-1)" aria-label="Previous Blogs" class="w-9 h-9 rounded-xl border border-slate-200 hover:bg-red-600 hover:text-white hover:border-red-600 text-slate-700 font-bold flex items-center justify-center transition-colors">‹</button>
             <span id="blog-carousel-indicator" class="text-xs font-bold text-slate-500 px-2">1 / 2</span>
             <button type="button" onclick="shiftBlogCarousel(1)" aria-label="Next Blogs" class="w-9 h-9 rounded-xl border border-slate-200 hover:bg-red-600 hover:text-white hover:border-red-600 text-slate-700 font-bold flex items-center justify-center transition-colors">›</button>
-            <button type="button" onclick="switchView('blogs')" class="ml-2 text-xs font-bold text-red-600 hover:underline">
+            <button type="button" onclick="switchView('blogs')" class="ml-2 text-xs font-bold text-black600 hover:underline">
               View All Articles →
             </button>
           </div>
@@ -879,7 +879,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
         <div class="pt-8 border-t border-white/10">
           <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
             <div>
-              <span class="text-xs font-extrabold uppercase tracking-widest text-red-400">Press &amp; Milestones</span>
+              <span class="text-xs font-extrabold uppercase tracking-widest text-black400">Press &amp; Milestones</span>
               <h2 class="text-2xl sm:text-3xl font-black mt-1">Our Media Mentions &amp; Recent Achievements</h2>
             </div>
             <div class="flex items-center gap-2">
@@ -898,14 +898,14 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <section class="max-w-7xl mx-auto px-4 sm:px-6 py-16">
       <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
         <div>
-          <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Verified Reviews Carousel</span>
-          <h2 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">What Our Clients Say About Our Services</h2>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Verified Reviews Carousel</span>
+          <h2 class="text-2xl sm:text-3xl font-black text-black mt-1">What Our Clients Say About Our Services</h2>
         </div>
         <div class="flex items-center gap-2">
           <button type="button" onclick="shiftTestimonialCarousel(-1)" aria-label="Previous Testimonials" class="w-9 h-9 rounded-xl border border-slate-200 hover:bg-red-600 hover:text-white hover:border-red-600 text-slate-700 font-bold flex items-center justify-center transition-colors">‹</button>
           <span id="testimonial-carousel-indicator" class="text-xs font-bold text-slate-500 px-2">1 / 2</span>
           <button type="button" onclick="shiftTestimonialCarousel(1)" aria-label="Next Testimonials" class="w-9 h-9 rounded-xl border border-slate-200 hover:bg-red-600 hover:text-white hover:border-red-600 text-slate-700 font-bold flex items-center justify-center transition-colors">›</button>
-          <button type="button" onclick="switchView('testimonials')" class="ml-2 text-xs font-bold text-red-600 hover:underline">
+          <button type="button" onclick="switchView('testimonials')" class="ml-2 text-xs font-bold text-black600 hover:underline">
             Read All Client Stories →
           </button>
         </div>
@@ -917,8 +917,8 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <section class="bg-slate-100 border-t border-slate-200 py-16">
       <div class="max-w-4xl mx-auto px-4 sm:px-6">
         <div class="text-center mb-10">
-          <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Got Questions?</span>
-          <h2 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Frequently Asked Questions (FAQs)</h2>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Got Questions?</span>
+          <h2 class="text-2xl sm:text-3xl font-black text-black mt-1">Frequently Asked Questions (FAQs)</h2>
         </div>
         <div id="home-faq-list" class="space-y-3"></div>
       </div>
@@ -950,7 +950,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <!-- CANADA CALCULATOR PANEL -->
     <div id="calc-panel-canada" class="grid lg:grid-cols-12 gap-8 items-start">
       <div class="lg:col-span-7 bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
-        <h2 class="text-lg font-extrabold text-[#a90f1b] border-b border-slate-100 pb-3">🇨🇦 Canada Express Entry (FSW 67-Point &amp; CRS Estimator)</h2>
+        <h2 class="text-lg font-extrabold text-black border-b border-slate-100 pb-3">🇨🇦 Canada Express Entry (FSW 67-Point &amp; CRS Estimator)</h2>
         <div>
           <label class="block text-xs font-bold text-slate-700 mb-1">1. Your Age Group (Max 12 Points)</label>
           <select id="ca-age" onchange="calculateCanadaPoints()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm bg-white">
@@ -1016,11 +1016,11 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
         <div class="grid grid-cols-2 gap-4 bg-slate-50 p-4 rounded-xl border border-slate-200">
           <div>
             <div class="text-xs text-slate-500 font-medium">FSW 67-Point Grid</div>
-            <div id="ca-score-val" class="text-2xl font-black text-[#a90f1b]">77 / 100</div>
+            <div id="ca-score-val" class="text-2xl font-black text-black">77 / 100</div>
           </div>
           <div>
             <div class="text-xs text-slate-500 font-medium">Estimated CRS Score</div>
-            <div id="ca-crs-val" class="text-2xl font-black text-red-600">~482</div>
+            <div id="ca-crs-val" class="text-2xl font-black text-black600">~482</div>
           </div>
         </div>
         <div id="ca-status-badge" class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800">
@@ -1036,7 +1036,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <!-- AUSTRALIA CALCULATOR PANEL -->
     <div id="calc-panel-australia" class="hidden grid lg:grid-cols-12 gap-8 items-start">
       <div class="lg:col-span-7 bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
-        <h2 class="text-lg font-extrabold text-[#a90f1b] border-b border-slate-100 pb-3">🇦🇺 Australia 65-Point GSM Calculator (Subclass 189 / 190 / 491)</h2>
+        <h2 class="text-lg font-extrabold text-black border-b border-slate-100 pb-3">🇦🇺 Australia 65-Point GSM Calculator (Subclass 189 / 190 / 491)</h2>
         <div>
           <label class="block text-xs font-bold text-slate-700 mb-1">1. Your Age Band</label>
           <select id="au-age" onchange="calculateAustraliaPoints()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm bg-white">
@@ -1095,7 +1095,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
         <div class="text-xs font-bold uppercase tracking-wider text-slate-500">Australia SkillSelect Result</div>
         <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
           <div class="text-xs text-slate-500 font-medium">Total SkillSelect Points</div>
-          <div id="au-score-val" class="text-3xl font-black text-[#a90f1b]">90 Points</div>
+          <div id="au-score-val" class="text-3xl font-black text-black">90 Points</div>
         </div>
         <div id="au-status-badge" class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800">
           ✓ High Invitation Probability
@@ -1110,7 +1110,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <!-- GERMANY OPPORTUNITY CARD CALCULATOR PANEL -->
     <div id="calc-panel-germany" class="hidden grid lg:grid-cols-12 gap-8 items-start">
       <div class="lg:col-span-7 bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
-        <h2 class="text-lg font-extrabold text-[#a90f1b] border-b border-slate-100 pb-3">🇩🇪 Germany Opportunity Card (Chancenkarte) 6-Point Calculator</h2>
+        <h2 class="text-lg font-extrabold text-black border-b border-slate-100 pb-3">🇩🇪 Germany Opportunity Card (Chancenkarte) 6-Point Calculator</h2>
         <div>
           <label class="block text-xs font-bold text-slate-700 mb-1">1. Degree &amp; Qualification Recognition</label>
           <select id="de-qual" onchange="calculateGermanyPoints()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm bg-white">
@@ -1159,7 +1159,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
         <div class="text-xs font-bold uppercase tracking-wider text-slate-500">Chancenkarte Score Result</div>
         <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
           <div class="text-xs text-slate-500 font-medium">Chancenkarte Points (Min 6 Required)</div>
-          <div id="de-score-val" class="text-3xl font-black text-[#a90f1b]">11 Points</div>
+          <div id="de-score-val" class="text-3xl font-black text-black">11 Points</div>
         </div>
         <div id="de-status-badge" class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800">
           ✓ Eligible for Germany Opportunity Card
@@ -1176,7 +1176,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <!-- VIEW 3: DYNAMIC VISA PATHWAY DETAIL VIEW                              -->
   <!-- ===================================================================== -->
   <section id="view-pathway" class="hidden flex-1 max-w-6xl mx-auto px-4 sm:px-6 py-12 w-full">
-    <button type="button" onclick="switchView('home')" class="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-red-600 mb-6">
+    <button type="button" onclick="switchView('home')" class="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-black600 mb-6">
       ← Back to All Immigration Pathways
     </button>
 
@@ -1202,24 +1202,24 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <div class="grid lg:grid-cols-12 gap-8">
       <div class="lg:col-span-8 space-y-6">
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-          <h2 class="text-lg font-extrabold text-[#a90f1b] mb-3">Program Overview</h2>
+          <h2 class="text-lg font-extrabold text-black mb-3">Program Overview</h2>
           <p id="pw-overview" class="text-sm text-slate-700 leading-relaxed"></p>
         </div>
 
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-          <h2 class="text-lg font-extrabold text-[#a90f1b] mb-4">Key Benefits &amp; Program Highlights</h2>
+          <h2 class="text-lg font-extrabold text-black mb-4">Key Benefits &amp; Program Highlights</h2>
           <ul id="pw-highlights" class="space-y-3"></ul>
         </div>
 
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-          <h2 class="text-lg font-extrabold text-[#a90f1b] mb-4">Eligibility &amp; Documentation Checklist</h2>
+          <h2 class="text-lg font-extrabold text-black mb-4">Eligibility &amp; Documentation Checklist</h2>
           <ul id="pw-requirements" class="space-y-3"></ul>
         </div>
       </div>
 
       <div class="lg:col-span-4 space-y-6">
         <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-md">
-          <h3 class="text-base font-extrabold text-[#a90f1b] mb-2">Start Your Application Today</h3>
+          <h3 class="text-base font-extrabold text-black mb-2">Start Your Application Today</h3>
           <p class="text-xs text-slate-500 mb-4">Speak directly with our senior case managers in Nehru Place, New Delhi.</p>
           <div class="space-y-2.5">
             <button type="button" onclick="openCalculator('canada')" class="w-full py-3 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs">
@@ -1263,8 +1263,8 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
         </span>
       </div>
       <div class="md:col-span-8 space-y-4">
-        <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Leadership Message</span>
-        <h3 class="text-2xl font-black text-[#a90f1b]">"We Don't Just Process Applications—We Build Futures."</h3>
+        <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Leadership Message</span>
+        <h3 class="text-2xl font-black text-black">"We Don't Just Process Applications—We Build Futures."</h3>
         <p class="text-sm text-slate-600 leading-relaxed">
           "My name is Gurpreet Singh, founder of Viraj Immigration Pvt Ltd based in Devika Tower, Nehru Place, New Delhi. Over the past 15+ years, I have specialized in helping Indian professionals and families migrate to Canada, Australia, and Europe through transparent, merit-based pathways."
         </p>
@@ -1277,18 +1277,18 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <!-- Mission, Vision & Awards (Replacing Original Site's "test test" Placeholders) -->
     <div class="grid md:grid-cols-3 gap-6">
       <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-        <div class="text-xs font-extrabold text-red-600 uppercase mb-2">Our Mission</div>
-        <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Mission Zero Defect</h3>
+        <div class="text-xs font-extrabold text-black600 uppercase mb-2">Our Mission</div>
+        <h3 class="text-lg font-bold text-black mb-2">Mission Zero Defect</h3>
         <p class="text-sm text-slate-600 leading-relaxed">To equip every client with accurate, up-to-date immigration advice and error-free documentation that maximizes visa approval rates and builds lifelong trust.</p>
       </div>
       <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-        <div class="text-xs font-extrabold text-red-600 uppercase mb-2">Our Vision</div>
-        <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Ethical Industry Leadership</h3>
+        <div class="text-xs font-extrabold text-black600 uppercase mb-2">Our Vision</div>
+        <h3 class="text-lg font-bold text-black mb-2">Ethical Industry Leadership</h3>
         <p class="text-sm text-slate-600 leading-relaxed">To set the benchmark for transparency, client communication, and digital case tracking across India, Canada, Australia, and the UAE.</p>
       </div>
       <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-        <div class="text-xs font-extrabold text-red-600 uppercase mb-2">Awards &amp; Recognition</div>
-        <h3 class="text-lg font-bold text-[#a90f1b] mb-2">Recognized Excellence</h3>
+        <div class="text-xs font-extrabold text-black600 uppercase mb-2">Awards &amp; Recognition</div>
+        <h3 class="text-lg font-bold text-black mb-2">Recognized Excellence</h3>
         <ul class="text-xs text-slate-600 space-y-2">
           <li>🏆 <strong>International Fame Award (IFA):</strong> Best Immigration Consultants of India</li>
           <li>🏆 <strong>Global Legacy Awards 2025–2026:</strong> Excellence in PR &amp; Skilled Migration</li>
@@ -1304,8 +1304,8 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <section id="view-cases" class="hidden flex-1 max-w-7xl mx-auto px-4 sm:px-6 py-12 w-full">
     <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
       <div>
-        <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Our Recent Achievements</span>
-        <h1 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Recent Visa Grants &amp; Client Case Studies</h1>
+        <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Our Recent Achievements</span>
+        <h1 class="text-2xl sm:text-3xl font-black text-black mt-1">Recent Visa Grants &amp; Client Case Studies</h1>
         <p class="text-sm text-slate-600 mt-1">Real occupation codes, points scores, and visa approval timelines across Australia, Canada, and Germany.</p>
       </div>
       <div class="flex flex-wrap gap-2">
@@ -1323,8 +1323,8 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <!-- ===================================================================== -->
   <section id="view-testimonials" class="hidden flex-1 max-w-7xl mx-auto px-4 sm:px-6 py-12 w-full">
     <div class="text-center max-w-3xl mx-auto mb-10">
-      <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">4.8 ★ Rated Consultancy in Nehru Place</span>
-      <h1 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Client Testimonials &amp; Success Stories</h1>
+      <span class="text-xs font-extrabold uppercase tracking-widest text-black600">4.8 ★ Rated Consultancy in Nehru Place</span>
+      <h1 class="text-2xl sm:text-3xl font-black text-black mt-1">Client Testimonials &amp; Success Stories</h1>
       <p class="text-sm text-slate-600 mt-2">Read genuine feedback from applicants who processed their PR, work permits, and visitor visas with Gurpreet Sir, Nikita, and the Viraj Immigration Pvt Ltd team.</p>
     </div>
     <div id="full-testimonials-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
@@ -1336,8 +1336,8 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <section id="view-blogs" class="hidden flex-1 max-w-7xl mx-auto px-4 sm:px-6 py-12 w-full">
     <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
       <div>
-        <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Immigration Knowledge Hub</span>
-        <h1 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Latest Immigration Blogs &amp; Policy Guides</h1>
+        <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Immigration Knowledge Hub</span>
+        <h1 class="text-2xl sm:text-3xl font-black text-black mt-1">Latest Immigration Blogs &amp; Policy Guides</h1>
       </div>
       <div class="flex flex-wrap gap-2">
         <button type="button" data-blog-filter="All" onclick="renderBlogs('All')" class="px-4 py-2 rounded-lg text-xs font-bold bg-red-600 text-white shadow-sm">All Posts (49)</button>
@@ -1354,8 +1354,8 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <!-- ===================================================================== -->
   <section id="view-faqs" class="hidden flex-1 max-w-4xl mx-auto px-4 sm:px-6 py-12 w-full">
     <div class="text-center mb-10">
-      <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Immigration Help Center</span>
-      <h1 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Frequently Asked Questions</h1>
+      <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Immigration Help Center</span>
+      <h1 class="text-2xl sm:text-3xl font-black text-black mt-1">Frequently Asked Questions</h1>
       <p class="text-sm text-slate-600 mt-2">Clear answers to common questions about Canada PR, Australia SkillSelect, Germany Opportunity Cards, and our consultation workflow.</p>
     </div>
     <div id="full-faq-list" class="space-y-3"></div>
@@ -1368,14 +1368,14 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
     <div class="grid lg:grid-cols-12 gap-10">
       <div class="lg:col-span-5 space-y-6">
         <div>
-          <span class="text-xs font-extrabold uppercase tracking-widest text-red-600">Visit Our New Delhi Head Office</span>
-          <h1 class="text-2xl sm:text-3xl font-black text-[#a90f1b] mt-1">Contact Viraj Immigration Pvt Ltd</h1>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-black600">Visit Our New Delhi Head Office</span>
+          <h1 class="text-2xl sm:text-3xl font-black text-black mt-1">Contact Viraj Immigration Pvt Ltd</h1>
           <p class="text-sm text-slate-600 mt-2">Walk in for an in-person consultation at Devika Tower, Nehru Place, or schedule a video assessment from anywhere in India.</p>
         </div>
 
         <div class="space-y-4">
           <div class="bg-white p-5 rounded-2xl border border-slate-200 flex items-start gap-4">
-            <div class="w-10 h-10 rounded-xl bg-red-50 text-red-600 flex items-center justify-center font-bold">📍</div>
+            <div class="w-10 h-10 rounded-xl bg-red-50 text-black600 flex items-center justify-center font-bold">📍</div>
             <div>
               <div class="text-xs font-bold text-slate-400 uppercase">Office Location</div>
               <div class="text-sm font-bold text-slate-900">10th Floor, Devika Tower, 1001-A, Nehru Place, New Delhi, Delhi 110019</div>
@@ -1384,16 +1384,16 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
           </div>
 
           <div class="bg-white p-5 rounded-2xl border border-slate-200 flex items-start gap-4">
-            <div class="w-10 h-10 rounded-xl bg-red-50 text-red-600 flex items-center justify-center font-bold">📞</div>
+            <div class="w-10 h-10 rounded-xl bg-red-50 text-black600 flex items-center justify-center font-bold">📞</div>
             <div>
               <div class="text-xs font-bold text-slate-400 uppercase">Phone &amp; WhatsApp Helpline</div>
-              <a href="tel:+916262191313" class="text-base font-extrabold text-[#a90f1b] hover:text-red-600">+91-6262191313</a>
+              <a href="tel:+916262191313" class="text-base font-extrabold text-black hover:text-black600">+91-6262191313</a>
               <div class="text-xs text-slate-500">HR &amp; Careers Desk: +91-9211566033</div>
             </div>
           </div>
 
           <div class="bg-white p-5 rounded-2xl border border-slate-200 flex items-start gap-4">
-            <div class="w-10 h-10 rounded-xl bg-red-50 text-red-600 flex items-center justify-center font-bold">✉</div>
+            <div class="w-10 h-10 rounded-xl bg-red-50 text-black600 flex items-center justify-center font-bold">✉</div>
             <div>
               <div class="text-xs font-bold text-slate-400 uppercase">Email Addresses</div>
               <div class="text-sm font-bold text-slate-900">info@virajimmigration.com</div>
@@ -1404,7 +1404,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
       </div>
 
       <div class="lg:col-span-7 bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-md">
-        <h2 class="text-xl font-extrabold text-[#a90f1b] mb-1">Book Your Free Consultation &amp; Eligibility Check</h2>
+        <h2 class="text-xl font-extrabold text-black mb-1">Book Your Free Consultation &amp; Eligibility Check</h2>
         <p class="text-xs text-slate-500 mb-6">Our senior immigration counselor will call you back within 2 working hours.</p>
 
         <form id="contact-assessment-form" onsubmit="handleAssessmentSubmit(event, 'contact-assessment-form')" class="space-y-4">
@@ -1481,7 +1481,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
         <div class="flex items-center gap-3 mb-3">
           <img src="assets/viraj-logo.jpg" data-drive-src="https://drive.google.com/thumbnail?id=1N0eZoFQOTQN0hAUfF5lKM1zzZbNAoabt&sz=w400" onerror="this.onerror=null;this.src=window.VIRAJ_LOGO_DATA;" alt="Viraj Immigration Pvt Ltd Logo" class="w-12 h-12 rounded-xl object-cover border border-red-500 shadow-md max-w-full" />
           <div>
-            <span class="text-base font-black text-white block leading-tight">VIRAJ <span class="text-red-500">IMMIGRATION</span> PVT LTD</span>
+            <span class="text-base font-black text-white block leading-tight">VIRAJ <span class="text-black500">IMMIGRATION</span> PVT LTD</span>
             <span class="text-[11px] text-amber-300 italic">New Country, New Chapter</span>
           </div>
         </div>
@@ -1577,11 +1577,11 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <div id="assessment-result-modal" class="hidden fixed inset-0 z-50 bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl border border-slate-200">
       <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-black text-xl mb-4">✓</div>
-      <h3 class="text-xl font-black text-[#a90f1b] mb-1">Preliminary Assessment Received!</h3>
+      <h3 class="text-xl font-black text-black mb-1">Preliminary Assessment Received!</h3>
       <p class="text-xs text-slate-500 mb-4">Thank you, <strong id="ar-name" class="text-slate-800">Applicant</strong>. Your profile has been assigned to a Senior Case Manager at our Nehru Place office.</p>
       <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 text-xs space-y-1.5 mb-5">
         <div><span class="text-slate-500">Target Destination:</span> <strong id="ar-country" class="text-slate-900">Canada</strong></div>
-        <div><span class="text-slate-500">Selected Profile:</span> <strong id="ar-pathway" class="text-red-600">Permanent Visa</strong></div>
+        <div><span class="text-slate-500">Selected Profile:</span> <strong id="ar-pathway" class="text-black600">Permanent Visa</strong></div>
         <div><span class="text-slate-500">Initial Status:</span> <strong class="text-emerald-700">Qualifies for Detailed Points Evaluation</strong></div>
       </div>
       <div class="flex gap-2">
@@ -1597,7 +1597,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <div id="pay-modal" class="hidden fixed inset-0 z-50 bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl border border-slate-200">
       <div class="flex items-center justify-between mb-4">
-        <h3 class="text-lg font-black text-[#a90f1b]">💳 Viraj Immigration Online Fee Portal</h3>
+        <h3 class="text-lg font-black text-black">💳 Viraj Immigration Online Fee Portal</h3>
         <button type="button" onclick="closePayModal()" class="text-slate-400 hover:text-slate-700 font-bold text-xl">×</button>
       </div>
       <form onsubmit="handlePaySubmit(event)" class="space-y-3.5">
@@ -1629,10 +1629,10 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <div id="blog-modal" class="hidden fixed inset-0 z-50 bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-slate-200 max-h-[85vh] overflow-y-auto">
       <div class="flex items-center justify-between mb-2">
-        <span id="blog-modal-category" class="text-xs font-bold text-red-600 uppercase">Immigrate Canada</span>
+        <span id="blog-modal-category" class="text-xs font-bold text-black600 uppercase">Immigrate Canada</span>
         <button type="button" onclick="closeBlogModal()" class="text-slate-400 hover:text-slate-700 font-bold text-xl">×</button>
       </div>
-      <h3 id="blog-modal-title" class="text-xl sm:text-2xl font-black text-[#a90f1b] mb-4"></h3>
+      <h3 id="blog-modal-title" class="text-xl sm:text-2xl font-black text-black mb-4"></h3>
       <div id="blog-modal-body" class="text-sm text-slate-700 space-y-3"></div>
       <div class="mt-6 pt-4 border-t border-slate-100 flex justify-end gap-2">
         <button type="button" onclick="closeBlogModal(); switchView('contact');" class="px-4 py-2 rounded-xl bg-red-600 text-white font-bold text-xs">Discuss With Case Manager</button>
@@ -1647,7 +1647,7 @@ header nav > .nav-group > button svg { color: #0b1f3a !important; }
   <div id="policy-modal" class="hidden fixed inset-0 z-50 bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-slate-200 max-h-[85vh] overflow-y-auto">
       <div class="flex items-center justify-between mb-4">
-        <h3 id="policy-modal-title" class="text-xl font-black text-[#a90f1b]">Policy</h3>
+        <h3 id="policy-modal-title" class="text-xl font-black text-black">Policy</h3>
         <button type="button" onclick="closePolicyModal()" class="text-slate-400 hover:text-slate-700 font-bold text-xl">×</button>
       </div>
       <div id="policy-modal-body" class="text-sm text-slate-700 leading-relaxed"></div>
@@ -2335,9 +2335,9 @@ function switchView(viewName, scrollTargetId) {
   // Update active nav styling
   document.querySelectorAll("[data-nav-view]").forEach(btn => {
     if (btn.getAttribute("data-nav-view") === viewName) {
-      btn.classList.add("text-red-600", "font-bold");
+      btn.classList.add("text-black600", "font-bold");
     } else {
-      btn.classList.remove("text-red-600", "font-bold");
+      btn.classList.remove("text-black600", "font-bold");
     }
   });
 
@@ -2467,7 +2467,7 @@ function calculateAustraliaPoints() {
       statusEl.textContent = "✓ High Invitation Probability (Subclass 189 / 190 / 491)";
       recEl.textContent = "With " + total + " points, your profile is highly competitive for both Skilled Independent (Subclass 189) and State Nominated (Subclass 190) direct PR visas.";
     } else if (total >= 65) {
-      statusEl.className = "inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-bold bg-red-100 text-red-800";
+      statusEl.className = "inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-bold bg-red-100 text-black800";
       statusEl.textContent = "✓ Qualifies for SkillSelect Pool (65+ Minimum Met)";
       recEl.textContent = "You meet the 65-point minimum threshold! We recommend lodging State ROIs for Subclass 190 (+5 pts) and Subclass 491 (+15 pts) across NSW, VIC, WA, and SA.";
     } else {
@@ -2536,7 +2536,7 @@ function renderCaseStudies(filterCountry) {
           </span>
         </div>
         <h3 class="text-lg font-bold text-slate-900 mb-1">${c.occupation}</h3>
-        <p class="text-xs font-semibold text-red-600 mb-3">${c.points}</p>
+        <p class="text-xs font-semibold text-black600 mb-3">${c.points}</p>
         <p class="text-sm text-slate-600 leading-relaxed mb-4">${c.summary}</p>
       </div>
       <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
@@ -2570,13 +2570,13 @@ function renderBlogs(category) {
     <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card flex flex-col justify-between">
       <div>
         <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-          <span class="px-2.5 py-1 rounded-md bg-red-50 text-red-700 font-bold">${b.category}</span>
+          <span class="px-2.5 py-1 rounded-md bg-red-50 text-black700 font-bold">${b.category}</span>
           <span>${b.date} • ${b.readTime}</span>
         </div>
         <h3 class="text-base font-bold text-slate-900 mb-2 leading-snug">${b.title}</h3>
         <p class="text-sm text-slate-600 leading-relaxed mb-4">${b.excerpt}</p>
       </div>
-      <button type="button" onclick="openBlogModal('${b.id}')" class="inline-flex items-center gap-1.5 text-xs font-bold text-red-600 hover:text-red-700">
+      <button type="button" onclick="openBlogModal('${b.id}')" class="inline-flex items-center gap-1.5 text-xs font-bold text-black600 hover:text-black700">
         Read Full Guide <span>→</span>
       </button>
     </article>
@@ -2600,13 +2600,13 @@ function renderHomeBlogCarousel() {
     <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm visa-card flex flex-col justify-between">
       <div>
         <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-          <span class="px-2.5 py-1 rounded-md bg-red-50 text-red-700 font-bold">${b.category}</span>
+          <span class="px-2.5 py-1 rounded-md bg-red-50 text-black700 font-bold">${b.category}</span>
           <span>${b.date} • ${b.readTime}</span>
         </div>
         <h3 class="text-base font-bold text-slate-900 mb-2 leading-snug">${b.title}</h3>
         <p class="text-sm text-slate-600 leading-relaxed mb-4">${b.excerpt}</p>
       </div>
-      <button type="button" onclick="openBlogModal('${b.id}')" class="inline-flex items-center gap-1.5 text-xs font-bold text-red-600 hover:text-red-700">
+      <button type="button" onclick="openBlogModal('${b.id}')" class="inline-flex items-center gap-1.5 text-xs font-bold text-black600 hover:text-black700">
         Read Full Guide <span>→</span>
       </button>
     </article>
@@ -2776,7 +2776,7 @@ function renderReelsCarousel() {
       </div>
       <div class="flex items-center justify-between text-[11px] text-slate-400 pt-2 border-t border-white/10">
         <span>${r.views}</span>
-        <span class="text-red-400 font-bold group-hover:underline">Watch Reel →</span>
+        <span class="text-black400 font-bold group-hover:underline">Watch Reel →</span>
       </div>
     </div>
   `).join("");
@@ -2846,7 +2846,7 @@ function renderFaqs() {
     <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
       <button type="button" onclick="toggleFaqItem('${prefix}-${idx}')" class="w-full px-5 py-4 text-left flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors">
         <span class="font-bold text-sm text-slate-900">${idx + 1}. ${item.q}</span>
-        <span id="faq-icon-${prefix}-${idx}" class="text-red-600 font-bold text-lg">+</span>
+        <span id="faq-icon-${prefix}-${idx}" class="text-black600 font-bold text-lg">+</span>
       </button>
       <div id="faq-body-${prefix}-${idx}" class="${idx === 0 ? '' : 'hidden'} px-5 pb-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
         ${item.a}
@@ -2967,11 +2967,11 @@ function sendChatMessage(event) {
     botBubble.className = "bg-slate-100 text-slate-800 text-xs rounded-xl rounded-bl-none px-3.5 py-2.5 self-start max-w-[88%]";
     const lower = text.toLowerCase();
     if (lower.includes("canada") || lower.includes("crs")) {
-      botBubble.innerHTML = "For <strong>Canada PR</strong>, you need 67/100 FSW points. Would you like to check our <button type='button' onclick='openCalculator(\"canada\")' class='underline font-bold text-red-600'>Canada Points Calculator</button> or speak with our Nehru Place case manager at +91-6262191313?";
+      botBubble.innerHTML = "For <strong>Canada PR</strong>, you need 67/100 FSW points. Would you like to check our <button type='button' onclick='openCalculator(\"canada\")' class='underline font-bold text-black600'>Canada Points Calculator</button> or speak with our Nehru Place case manager at +91-6262191313?";
     } else if (lower.includes("australia") || lower.includes("189") || lower.includes("190")) {
-      botBubble.innerHTML = "For <strong>Australia PR (Subclass 189/190/491)</strong>, the minimum threshold is 65 points. Try our <button type='button' onclick='openCalculator(\"australia\")' class='underline font-bold text-red-600'>Australia 65-Point Calculator</button>!";
+      botBubble.innerHTML = "For <strong>Australia PR (Subclass 189/190/491)</strong>, the minimum threshold is 65 points. Try our <button type='button' onclick='openCalculator(\"australia\")' class='underline font-bold text-black600'>Australia 65-Point Calculator</button>!";
     } else if (lower.includes("germany") || lower.includes("opportunity")) {
-      botBubble.innerHTML = "The <strong>Germany Opportunity Card 2026</strong> lets you move to Germany for 1 year without a job offer if you score 6+ points! Check your score on our <button type='button' onclick='openCalculator(\"germany\")' class='underline font-bold text-red-600'>Chancenkarte Calculator</button>.";
+      botBubble.innerHTML = "The <strong>Germany Opportunity Card 2026</strong> lets you move to Germany for 1 year without a job offer if you score 6+ points! Check your score on our <button type='button' onclick='openCalculator(\"germany\")' class='underline font-bold text-black600'>Chancenkarte Calculator</button>.";
     } else {
       botBubble.innerHTML = "Thank you for reaching out to <strong>Viraj Immigration Pvt Ltd</strong>! Our Senior Case Manager Nikita or Founder Gurpreet Singh's desk can evaluate your profile for free. Call/WhatsApp <strong>+91-6262191313</strong> or fill out the Free Assessment Form on this page.";
     }
