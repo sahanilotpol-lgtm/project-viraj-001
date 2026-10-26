@@ -104,6 +104,33 @@ body {
   animation: softPulse 2.5s infinite ease-in-out;
 }
 
+
+/* Red and white brand theme */
+:root {
+  --brand-navy: #a90f1b;
+  --brand-navy-light: #cf1827;
+  --brand-crimson: #d9232e;
+  --brand-crimson-dark: #a90f1b;
+  --brand-gold: #d9232e;
+  --brand-slate: #fff;
+}
+/* Replace blue accents across Tailwind utility classes with the brand red. */
+[class*="bg-blue-"], [class*="bg-indigo-"], [class*="bg-sky-"], [class*="bg-cyan-"] { background-color: #c8102e !important; }
+[class*="text-blue-"], [class*="text-indigo-"], [class*="text-sky-"], [class*="text-cyan-"] { color: #c8102e !important; }
+[class*="border-blue-"], [class*="border-indigo-"], [class*="border-sky-"], [class*="border-cyan-"] { border-color: #c8102e !important; }
+[class*="ring-blue-"], [class*="ring-indigo-"], [class*="ring-sky-"], [class*="ring-cyan-"] { --tw-ring-color: rgb(200 16 46 / var(--tw-ring-opacity, 1)) !important; }
+[class*="from-blue-"], [class*="from-indigo-"], [class*="from-sky-"], [class*="from-cyan-"] { --tw-gradient-from: #a90f1b var(--tw-gradient-from-position) !important; --tw-gradient-to: rgb(169 15 27 / 0) var(--tw-gradient-to-position) !important; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important; }
+[class*="via-blue-"], [class*="via-indigo-"], [class*="via-sky-"], [class*="via-cyan-"] { --tw-gradient-to: rgb(200 16 46 / 0) var(--tw-gradient-to-position) !important; --tw-gradient-stops: var(--tw-gradient-from), #c8102e var(--tw-gradient-via-position), var(--tw-gradient-to) !important; }
+[class*="to-blue-"], [class*="to-indigo-"], [class*="to-sky-"], [class*="to-cyan-"] { --tw-gradient-to: #e33442 var(--tw-gradient-to-position) !important; }
+[class~="bg-[#0a1d37]"], [class~="bg-[#132f54]"] { background-color: #a90f1b !important; }
+[class~="text-[#0a1d37]"], [class~="text-[#132f54]"] { color: #a90f1b !important; }
+[class~="border-[#0a1d37]"], [class~="border-[#132f54]"] { border-color: #a90f1b !important; }
+/* Keep the page airy and white, with crisp red interactive accents. */
+body { background-color: #fff !important; }
+.visa-card:hover { box-shadow: 0 20px 25px -5px rgb(169 15 27 / .18), 0 8px 10px -6px rgb(169 15 27 / .12); }
+::-webkit-scrollbar-thumb { background: #c8102e; }
+::-webkit-scrollbar-thumb:hover { background: #a90f1b; }
+
 </style>
   <!-- Viraj Immigration Pvt Ltd Logo Asset Configuration -->
   <!-- Local path: assets/viraj-logo.jpg | Google Drive: https://drive.google.com/file/d/1N0eZoFQOTQN0hAUfF5lKM1zzZbNAoabt/view?usp=drivesdk -->
