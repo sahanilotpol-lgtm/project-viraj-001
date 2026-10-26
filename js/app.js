@@ -649,9 +649,9 @@ function switchView(viewName, scrollTargetId) {
   // Update active nav styling
   document.querySelectorAll("[data-nav-view]").forEach(btn => {
     if (btn.getAttribute("data-nav-view") === viewName) {
-      btn.classList.add("text-red-600", "font-bold");
+      btn.classList.add("text-[#0b1f3a]", "font-bold");
     } else {
-      btn.classList.remove("text-red-600", "font-bold");
+      btn.classList.remove("text-[#0b1f3a]", "font-bold");
     }
   });
 
